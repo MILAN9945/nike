@@ -1,0 +1,133 @@
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0px;
+}
+
+.header {
+    background: #012D63;
+}
+
+.header-logo {}
+
+.header-link {
+    color: #C7C7C7;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.header-link:hover {
+    color: #FFF;
+}
+
+.header-sablink {
+    color: #DCDCDC;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+}
+
+.header-container {
+    display: flex;
+}
+
+.header-list {
+    display: flex;
+    gap: 29px;
+
+}
+
+.header-lengvich {
+    display: flex;
+    gap: 10px;
+}
+
+.header-sablink:hover {
+    color: #FFF;
+}
+
+/* main */
+
+.main {
+    background-image: url(./img/choose.png);
+    height: 858px;
+}
+
+.main-img{
+    padding-top: 94px;
+}
+
+.main-img {
+    width: 160px;
+}
+
+.main-nike {
+    color: #FFF;
+    font-family: PT Serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    position: absolute;
+}
+
+.main-taitle {
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 144px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 40px;
+}
+
+.main-sabtitle {
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main-text {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 12px;
+
+    display: flex;
+    justify-content: space-around;
+    flex: start;
+    
+}
+
+.main-button {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    border-radius: 10px;
+    background: #8E32C6;
+    width: 254px;
+    height: 67px;
+}
