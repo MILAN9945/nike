@@ -186,3 +186,72 @@
 .servises-img {
     width: 240px;
 }
+
+
+/* reviews */
+
+.reviews-item{
+    color: #FFF;
+text-align: center;
+font-family: Playfair Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 175px;
+height: 65px; 
+
+}
+
+
+.reviews-text{
+    color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 228px;
+}
+
+.reviews-date{
+    color: #D8D8D8;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.reviews-img{
+    width: 31px;
+height: 31px;
+}
+
+.reviews-subitem{
+    color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.sub-text{
+    color: #D8D8D8;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.reviews-title{
+    outline: solid red;
+}
+
+.reviews-list{
+    display: flex;
+    gap: 93px;
+    justify-content: center;
+}
