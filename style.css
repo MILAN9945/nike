@@ -60,12 +60,12 @@
 
 /* main */
 
-.main {
+.main-word {
     background-image: url(./img/choose.png);
     height: 858px;
 }
 
-.main-img{
+.main-img {
     padding-top: 94px;
 }
 
@@ -115,7 +115,7 @@
     display: flex;
     justify-content: space-around;
     flex: start;
-    
+
 }
 
 .main-button {
@@ -130,4 +130,59 @@
     background: #8E32C6;
     width: 254px;
     height: 67px;
+}
+
+/* servises */
+
+.servises {
+    background-image: url(./img/group.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 105px 0;
+}
+
+.servises-cards {
+    display: flex;
+  justify-content: space-evenly;
+    border: 5px solid #8E32C6;
+    align-items: center;
+   
+}
+
+.servises-subcard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 81px;
+    margin: 25px 0;
+}
+
+.servises-subcard:first-child{
+    border-right: 1px solid #FFF;
+
+}
+
+.servises-subcard:last-child{
+    border-left: 1px solid #FFF;
+
+}
+
+
+
+.servises-subitem {
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 4px;
+
+    width: 159px;
+    height: 102px;
+}
+
+.servises-img {
+    width: 240px;
 }
