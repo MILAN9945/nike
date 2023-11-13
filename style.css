@@ -143,13 +143,13 @@
 
 .servises-cards {
     display: flex;
-  justify-content: space-evenly;
+    justify-content: space-evenly;
     border: 5px solid #8E32C6;
     align-items: center;
-   
+
 }
 
-.servises-subcard{
+.servises-subcard {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -157,12 +157,12 @@
     margin: 25px 0;
 }
 
-.servises-subcard:first-child{
+.servises-subcard:first-child {
     border-right: 1px solid #FFF;
 
 }
 
-.servises-subcard:last-child{
+.servises-subcard:last-child {
     border-left: 1px solid #FFF;
 
 }
@@ -190,68 +190,107 @@
 
 /* reviews */
 
-.reviews-item{
-    color: #FFF;
-text-align: center;
-font-family: Playfair Display;
-font-size: 48px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-width: 175px;
-height: 65px; 
+.reviews{
+    background-image: url(./img/flovers.png),url(./img/group.png);
 
+    background-repeat: no-repeat;
+    background-size: auto, cover;
+    background-position:left bottom, center ;
+    padding-bottom: 114px;
 }
 
 
-.reviews-text{
+.reviews-item {
     color: #FFF;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-width: 228px;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   padding-top: 56px;
+   padding-bottom: 56px;
 }
 
-.reviews-date{
+
+.reviews-text {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 228px;
+    padding-left: 13px; 
+    padding-right: 14px;
+}
+
+.reviews-date {
     color: #D8D8D8;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 13px;
 }
 
-.reviews-img{
+.reviews-img {
     width: 31px;
-height: 31px;
+    height: 31px;
 }
 
-.reviews-subitem{
+.reviews-subitem {
     color: #FFF;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
-.sub-text{
+.sub-text {
     color: #D8D8D8;
-font-family: Roboto;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
-.reviews-title{
-    outline: solid red;
+.reviews-title {
+    padding-top: 49px;
+    padding-bottom: 8px;
 }
 
-.reviews-list{
+.reviews-title:nth-child(1) {
+    border-radius: 15px;
+    background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+    box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+}
+
+.reviews-title:nth-child(2) {
+    border-radius: 15px;
+    background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+    box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
+}
+
+.reviews-title:nth-child(3) {
+    border-radius: 15px;
+    background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+    box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
+}
+
+.reviews-list {
     display: flex;
     gap: 93px;
     justify-content: center;
+  
+}
+
+.reviews-subcards{
+    display: flex;
+    padding-top: 47px;
+    padding-left: 13px;
+    padding-bottom: 29px;
 }
