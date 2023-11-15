@@ -190,12 +190,12 @@
 
 /* reviews */
 
-.reviews{
-    background-image: url(./img/flovers.png),url(./img/group.png);
+.reviews {
+    background-image: url(./img/flovers.png), url(./img/group.png);
 
     background-repeat: no-repeat;
     background-size: auto, cover;
-    background-position:left bottom, center ;
+    background-position: left bottom, center;
     padding-bottom: 114px;
 }
 
@@ -208,8 +208,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-   padding-top: 56px;
-   padding-bottom: 56px;
+    padding-top: 56px;
+    padding-bottom: 56px;
 }
 
 
@@ -221,7 +221,7 @@
     font-weight: 400;
     line-height: normal;
     width: 228px;
-    padding-left: 13px; 
+    padding-left: 13px;
     padding-right: 14px;
 }
 
@@ -285,12 +285,46 @@
     display: flex;
     gap: 93px;
     justify-content: center;
-  
+
 }
 
-.reviews-subcards{
+.reviews-subcards {
     display: flex;
     padding-top: 47px;
     padding-left: 13px;
     padding-bottom: 29px;
+}
+
+
+/* search */
+
+.search {
+    background-image: url(./img/fern.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 509px;
+}
+
+
+.search-title {
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.search-int::placeholder {
+    color: #959595;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
