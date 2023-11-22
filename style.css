@@ -62,6 +62,8 @@
 
 .main-word {
     background-image: url(./img/choose.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 858px;
 }
 
