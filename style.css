@@ -112,12 +112,9 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 12px;
-
-    display: flex;
-    justify-content: space-around;
-    flex: start;
-
+    width: 508px;
+    height: 84px;
+    margin-top: 32px;
 }
 
 .main-button {
@@ -334,27 +331,33 @@
     background: #FFF;
 }
 
-.search-button {
+
+
+.search-box {
+    position: relative;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-nike-button {
+    color: #8D8D8D;
     font-family: Roboto;
     font-size: 26px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    background-color: transparent;
     position: absolute;
+    border: none;
     top: 13.5px;
     right: 0;
-    color: #8D8D8D;
     cursor: pointer;
-    background-color: transparent;
     border: none;
+    padding-right: 78.6px;
+    
 }
 
-.search-box {
-    position: relative;
-    width: 650px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 
 input {
@@ -378,20 +381,27 @@ input {
     line-height: normal;
 }
 
+
 .search-button {
+
     color: #FFF;
     font-family: Roboto;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
     width: 248px;
     height: 68px;
     flex-shrink: 0;
     border-radius: 16px;
     background: #8E32C6;
 
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
     display: block;
     margin-left: auto;
     margin-right: auto;
