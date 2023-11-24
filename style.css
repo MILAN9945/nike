@@ -334,7 +334,31 @@
     background: #FFF;
 }
 
+.search-button {
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 13.5px;
+    right: 0;
+    color: #8D8D8D;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.search-box {
+    position: relative;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 input {
+    display: block;
     width: 580px;
     height: 50px;
     flex-shrink: 0;
@@ -379,60 +403,59 @@ input {
     padding-top: 45px;
     padding-bottom: 50px;
     background-color: #021635;
-  }
-  
-  .footer-item {
+}
+
+.footer-item {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
-  }
-  
-  .footer-text {
+}
+
+.footer-text {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 24px;
     line-height: 1.17;
     color: #ffffff;
-  }
-  
-  .footer-img-nike {
+}
+
+.footer-img-nike {
     display: flex;
     justify-content: space-between;
-  }
-  
-  .footer-country-nike {
+}
+
+.footer-country-nike {
     margin-top: 44px;
-  }
-  
-  .footer-mail {
+}
+
+.footer-mail {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 24px;
     line-height: 1.17;
     text-decoration-line: underline;
     color: #ffffff;
-  }
-  
-  .footer-country {
+}
+
+.footer-country {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 18px;
     line-height: 1.17;
     color: #ffffff;
     margin-top: 7px;
-  }
-  
-  .footer-abr {
+}
+
+.footer-abr {
     font-family: 'PT Serif';
     font-weight: 400;
     font-size: 24px;
     line-height: 1.33;
     color: #ffffff;
-  }
-  
-  .footer-img {
+}
+
+.footer-img {
     width: 108px;
     height: 81px;
     padding-top: 19px;
-  }
-  
+}
